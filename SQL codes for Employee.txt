@@ -1,0 +1,11 @@
+CREATE TABLE `employee`(
+`id` int(3) NOT NULL,
+`first_name` varchar(20),
+`last_name` varchar(20),
+`username` varchar(20),
+`password` varchar(20),
+`address` varchar(40),
+`contact` varchar(20),
+PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
